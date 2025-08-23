@@ -76,8 +76,9 @@ In a probability space (Ω, 𝒜, P), the probability measure 𝑃 is a function
 
 Formally,
 $$
-            P:𝒜→[0,1]
+P : 𝒜 \to [0,1]
 $$
+
 ### Properties of Probability Measure P
 
 #### 1. Non-negativity
