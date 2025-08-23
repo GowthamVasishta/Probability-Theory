@@ -7,14 +7,14 @@ where
 - $$\mathcal{A}$$ is a **$$\sigma$$-field (sigma-algebra)**,  
 - $$P$$ is the **probability measure**. 
 
-## Understanding $$\sigma$$-field 𝒜$
+## Understanding $$\sigma$$-field 𝒜
 **$$\sigma$$ algebra** is collection of subsets of **$$\Omega$$** that satifies below three properties.
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
 
    Possible outcomes of a coin toss are $${H, T}$$,  so both $$H$$ and $$T$$ must be included as events.
    
-   **Intuition:** The whole set of possible outcomes should be in **𝒜** as probability must always be defined over the entire sample _(and must be equal to 1)_.
+   **Intuition:** The whole set of possible outcomes should be in 𝒜 as probability must always be defined over the entire sample _(and must be equal to 1)_.
    
 3. **It’s closed under complements:**  
    If $$\(A \in 𝒜\)$$, then its complement $$\(A^c \in 𝒜\)$$.
