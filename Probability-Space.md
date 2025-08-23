@@ -30,3 +30,5 @@ $$\sigma$$ algebra is collection of subsets of **$$\Omega$$** that satifies belo
    If “rain on Monday,” “rain on Tuesday,” “rain on Wednesday,” … are events, then “rain on some day” must also be an event.
     
    **Intuition:** Probability should not only apply to the single events, but also to combined events.
+
+In short, $\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events.
