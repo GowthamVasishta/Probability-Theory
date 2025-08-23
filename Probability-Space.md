@@ -48,7 +48,7 @@ b. **A non-trivial $\sigma$-field**
 
 **Idea:** The biggest σ-field is the power set (all subsets). And, the smallest σ-field is {∅, Ω}.
 
-### Why don't we use all subsets always to construct a $\sigma$-field?
+### Why don't we use all subsets always? Why do we need a $\sigma$-field?
 If we’re dealing with something small and finite (like tossing a coin or rolling a die), we can happily include all possible subsets of outcomes as events.
 Example: For a coin toss, the subsets are {H}, {T}, {H,T}, and ∅. All of them can have probabilities without any problem.
 
