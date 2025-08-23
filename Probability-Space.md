@@ -122,7 +122,7 @@ $$
 One possible σ-field is the power set:  
 
 $$
-𝒜 = { \emptyset, {H}, {T}, {H,T} }
+𝒜 = {{ \emptyset, {H}, {T}, {H,T} }}
 $$
 
 A valid probability measure could be:  
