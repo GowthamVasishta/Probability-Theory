@@ -3,6 +3,6 @@
 $$(\Omega, \mathcal{A}, P)$$
 
 where  
-- \(\Omega\) is the **sample space** (all possible outcomes),  
-- \(\mathcal{A}\) is a **σ-field (sigma-algebra)**,  
-- \(P\) is the **probability measure**. 
+- $$\Omega$$ is the **sample space** (all possible outcomes),  
+- $$\mathcal{A}$$ is a **σ-field (sigma-algebra)**,  
+- $$P$$ is the **probability measure**. 
