@@ -4,7 +4,7 @@ $(\Omega, 𝒜, P)$
 
 where  
 - $$\Omega$$ is the **sample space** (all possible outcomes),  
-- $$\mathcal{A}$$ is a **$$\sigma$$-field (sigma-algebra)**,  
+- $$𝒜$$ is a **$$\sigma$$-field (sigma-algebra)**,  
 - $$P$$ is the **probability measure**. 
 
 ## Understanding $$\sigma$$-field 𝒜
