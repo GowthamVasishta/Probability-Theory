@@ -116,19 +116,19 @@ $$
 Let's develop a probability space for a coin toss experiment. The sample space is
 
 $$
-\Omega = \leq H, T \geq
+\Omega = \lbrace H, T \rbrace
 $$
 
 One possible σ-field is the power set:  
 
 $$
-𝒜 = {{ \emptyset, {H}, {T}, {H,T} }}
+𝒜 = \lbrace \emptyset, \lbraceH \rbrace, \lbraceT\rbrace, \lbraceH,T\rbrace \rbrace
 $$
 
 A valid probability measure could be:  
 
 $$
-P(\{H\}) = 0.5, \quad P(\{T\}) = 0.5
+P(\lbraceH\rbrace) = 0.5, \quad P(\lbraceT\rbrace) = 0.5
 $$
 
 Here, every subset of \(\Omega\) is an event, and \(P\) assigns probabilities to them.
