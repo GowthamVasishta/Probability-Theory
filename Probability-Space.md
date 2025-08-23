@@ -12,7 +12,7 @@ where
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
 
-   Possible outcomes of a coin toss are {$H, T$},  so both $$H$$ and $$T$$ must be included as events.
+   Possible outcomes of a coin toss are {H, T},  so both $$H$$ and $$T$$ must be included as events.
    
    **Intuition:** The whole set of possible outcomes should be in 𝒜 as probability must always be defined over the entire sample _(and must be equal to 1)_.
    
@@ -34,4 +34,4 @@ where
 In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
 
 ### Example on construction of $$\sigma$$-field 𝒜
-Let's consider our sample space be $\Omega =$ { 1, 2, 3 }. The power set of $$\Omega$$ is all subsets of {1,2,3} i.e. $$2^3 = 8$$ subsets. 
+Let's consider our sample space be $\Omega =$ {1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets. 
