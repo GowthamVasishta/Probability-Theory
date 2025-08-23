@@ -131,5 +131,5 @@ $$
 P( \lbrace H \rbrace) = 0.5, \quad P( \lbrace T \rbrace) = 0.5
 $$
 
-Here, every subset of \(\Omega\) is an event, and \(P\) assigns probabilities to them.
+Here, every subset of $\Omega$ is an event, and \(P\) assigns probabilities to them.
 
