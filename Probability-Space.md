@@ -19,7 +19,7 @@ $$\sigma$$ algebra is collection of subsets of **$$\Omega$$** that satifies belo
    **Intuition:** Probability deals with something happening and not happening. If we only allowed one side, we couldn't assign consistent probabilities.
 
 5. **It’s closed under countable unions (and intersections):**  
-   If \(A_1, A_2, A_3, \dots \in \mathcal{A}\), then  
-   \(\bigcup_{i=1}^\infty A_i \in \mathcal{A}\).  
+   If $$\(A_1, A_2, A_3, \dots \in \mathcal{A}\)$$, then  
+   $$\(\bigcup_{i=1}^\infty A_i \in \mathcal{A}\)$$.  
    If “rain on Monday,” “rain on Tuesday,” “rain on Wednesday,” … are events, then “rain on some day” must also be an event.
    **Intuition:** Probability should not only apply to the single events, but also to combined events.
