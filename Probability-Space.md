@@ -70,3 +70,39 @@ For real numbers, the most common choice is the **Borel $\sigma$-field**.
 The Borel σ-field is big enough to cover every event we care about in practice, but small enough to exclude the problematic non-measurable sets.
 
 In short, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite or continuous cases, we must be careful due to the existence of non-measurable sets.
+
+## Probability Measure 𝑃
+In a probability space (Ω, 𝒜, P), the probability measure 𝑃 is a function that assigns a number (probability) to each event in the σ-field 𝒜.
+
+Formally,
+            P:𝒜→[0,1]
+### Properties of Probability Measure P
+
+#### 1. Non-negativity
+For every event `A ∈ 𝒜`:
+
+$$
+P(A) \geq 0
+$$
+
+---
+
+#### 2. Normalization
+The probability of the whole sample space is 1:
+
+$$
+P(\Omega) = 1
+$$
+
+---
+
+#### 3. Countable Additivity (σ-additivity)
+For any countable collection of disjoint events `A₁, A₂, … ∈ 𝒜`:
+
+$$
+P\left( \bigcup_{i=1}^{\infty} A_i \right) 
+= \sum_{i=1}^{\infty} P(A_i)
+$$
+
+
+            
