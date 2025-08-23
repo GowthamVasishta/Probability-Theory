@@ -38,7 +38,11 @@ Let's consider our sample space to be $\Omega = ${1, 2, 3}. The power set of $$\
 𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
 
 This is the largest possible σ-field on {1,2,3}. But a $\sigma$-field doesn't always need the entire power set; we can construct it with a few subsets of the power set and still satisfy the three rules (contains Ω, closed under complements, closed under countable unions).  
-   a. **A trivial $\sigma$-field** $A_1​=${ ∅,{1,2,3} } only "nothing" and "something" happen. Always valid but not quite useful.  
+
+   a. **A trivial $\sigma$-field** $A_1​=${ ∅,{1,2,3} } only "nothing" and "something" happen. Always valid but not quite useful. 
+   
    b. **A non-trivial $\sigma$-field** Lets say we include {1}, then its complement is {2, 3}. Then a valid $\sigma$-field is as follows.  
       A2​={ ∅, {1}, {2,3}, {1,2,3} }
+
+**Idea:** The biggest σ-field is the power set (all subsets). And, the smallest σ-field is {∅, Ω}.
 
