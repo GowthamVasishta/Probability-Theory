@@ -75,7 +75,9 @@ In short, imagine a $\sigma$-field as a **safe menu of events** which lets us as
 In a probability space (Ω, 𝒜, P), the probability measure 𝑃 is a function that assigns a number (probability) to each event in the σ-field 𝒜.
 
 Formally,
+$$
             P:𝒜→[0,1]
+$$
 ### Properties of Probability Measure P
 
 #### 1. Non-negativity
