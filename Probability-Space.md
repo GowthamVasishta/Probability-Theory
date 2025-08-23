@@ -7,7 +7,7 @@ where
 - $$\mathcal{A}$$ is a **$$\sigma$$-field (sigma-algebra)**,  
 - $$P$$ is the **probability measure**. 
 
-## Understanding $$\sigma$$-field $$\mathsf{A}$$
+## Understanding $$\sigma$$-field $\mathcal{A}$
 **$$\sigma$$ algebra** is collection of subsets of **$$\Omega$$** that satifies below three properties.
 1. **It contains sample space** \
    $$\Omega \in \mathcal{A}$$ 
