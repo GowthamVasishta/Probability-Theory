@@ -1,6 +1,6 @@
 # 1. Probability Space
 **Probability Spaces** are used to model random processes or experiments. It is defined as a triple:
-$(\Omega, {\cal{A}}, P)$
+$(\Omega, \mathcal{A}, P)$
 
 where  
 - $$\Omega$$ is the **sample space** (all possible outcomes),  
