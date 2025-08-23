@@ -121,15 +121,15 @@ $$
 
 One possible σ-field is the power set:  
 
-\[
+$$
 \mathcal{A} = \{ \emptyset, \{H\}, \{T\}, \{H,T\} \}
-\]
+$$
 
 A valid probability measure could be:  
 
-\[
+$$
 P(\{H\}) = 0.5, \quad P(\{T\}) = 0.5
-\]
+$$
 
 Here, every subset of \(\Omega\) is an event, and \(P\) assigns probabilities to them.
 
