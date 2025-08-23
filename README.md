@@ -1,2 +1,2 @@
 # Probability-Theory
-A study of probability theory.
+This repo is a collection of my personal notes while studying probability theory.
