@@ -69,4 +69,4 @@ For real numbers, the most common choice is the **Borel $\sigma$-field**.
 
 The Borel σ-field is big enough to cover every event we care about in practice, but small enough to exclude the problematic non-measurable sets.
 
-In short, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite case, we must be careful due to the existence of non-measurable sets.
+In short, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite or continuous cases, we must be careful due to the existence of non-measurable sets.
