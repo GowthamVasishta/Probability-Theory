@@ -116,7 +116,7 @@ $$
 Let's develop a probability space for a coin toss experiment. The sample space is
 
 $$
-\Omega = \{ H, T \}
+\Omega = \leq H, T \geq
 $$
 
 One possible σ-field is the power set:  
