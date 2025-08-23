@@ -8,4 +8,4 @@ where
 - $$P$$ is the **probability measure**. 
 
 ## Understanding $$\sigma$$-field $$\mathcal{A}$$
-$$ \sigma$$ algebra is collection of subsets of $$\Omega$$ that satifies below three properties.
+$$\sigma$$ algebra is collection of subsets of $$\Omega$$ that satifies below three properties.
