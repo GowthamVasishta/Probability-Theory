@@ -31,4 +31,4 @@ $$\sigma$$ algebra is collection of subsets of **$$\Omega$$** that satifies belo
     
    **Intuition:** Probability should not only apply to the single events, but also to combined events.
 
-In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events.
+In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
