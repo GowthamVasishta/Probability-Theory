@@ -35,6 +35,6 @@ In short, $$\sigma$$-field always includes "everything happens", the  "opposite"
 
 ### Example on construction of $$\sigma$$-field 𝒜
 Let's consider our sample space be $\Omega =$ {1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="script">P</mi></math>(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
+P(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
 
 This is the largest possible σ-field on {1,2,3}.
