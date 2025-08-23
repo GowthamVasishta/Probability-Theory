@@ -12,7 +12,7 @@ where
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
 
-   Possible outcomes of a coin toss are $$\\{H, T}$$,  so both $$H$$ and $$T$$ must be included as events.
+   Possible outcomes of a coin toss are $\{H, T\}$,  so both $$H$$ and $$T$$ must be included as events.
    
    **Intuition:** The whole set of possible outcomes should be in 𝒜 as probability must always be defined over the entire sample _(and must be equal to 1)_.
    
