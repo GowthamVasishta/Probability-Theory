@@ -10,7 +10,7 @@ where
 ---
 
 ## Understanding $$\sigma$$-field 𝒜
-**$$\sigma$$ algebra** is collection of subsets of **$$\Omega$$** that satifies below three properties.
+**$$\sigma$$ algebra** is collection of subsets of **$$\Omega$$** _(called Events)_ that satifies below three properties.
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
 
