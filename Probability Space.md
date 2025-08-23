@@ -1,5 +1,5 @@
 # 1. Probability Space
-**Probability Space** is triple defined as
+**Probability Spaces** are used to model random processes or experiments. It is defined as a triple:
 $$(\Omega, \mathcal{A}, P)$$
 
 where  
