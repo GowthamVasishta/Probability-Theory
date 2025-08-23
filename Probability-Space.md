@@ -109,4 +109,27 @@ P\left( \bigcup_{i=1}^{\infty} A_i \right)
 $$
 
 
-            
+---
+
+### Example
+
+Let's develop a probability space for a coin toss experiment. The sample space is
+
+$$
+\Omega = \{ H, T \}
+$$
+
+One possible σ-field is the power set:  
+
+\[
+\mathcal{A} = \{ \emptyset, \{H\}, \{T\}, \{H,T\} \}
+\]
+
+A valid probability measure could be:  
+
+\[
+P(\{H\}) = 0.5, \quad P(\{T\}) = 0.5
+\]
+
+Here, every subset of \(\Omega\) is an event, and \(P\) assigns probabilities to them.
+
