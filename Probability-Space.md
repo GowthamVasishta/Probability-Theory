@@ -54,7 +54,7 @@ Example: For a coin toss, the subsets are {H}, {T}, {H,T}, and ∅. All of them 
 
 But when we move to infinite cases (like picking a random number between 0 and 1), things get tricky. Some subsets of [0, 1] are too "wild" to assign a probability to in a consistent way. These unusual sets are referred to as **non-measurable sets**.
 
-**$\sigma$-field as fix: **
+**$\sigma$-field as fix:**
 To avoid the problem of non-measurable sets, we don't allow all subsets in the infinite case. Instead, we restrict to a carefully chosen collection of subsets called a $\sigma$-field.
 
 For real numbers, the most common choice is the **Borel $\sigma$-field**.
@@ -69,4 +69,4 @@ For real numbers, the most common choice is the **Borel $\sigma$-field**.
 
 The Borel σ-field is big enough to cover every event we care about in practice, but small enough to exclude the problematic non-measurable sets.
 
-In short, imagine a $\sigma$-field as a **safe menu of events** which let us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or dice roll, we can include all subsets in $\sigma$-field, however, in infinite case, we must be careful due to the existence of non-measurable sets.
+In short, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or dice roll, we can include all subsets in the $\sigma$-field, however, in the infinite case, we must be careful due to the existence of non-measurable sets.
