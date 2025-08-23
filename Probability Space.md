@@ -1,8 +1,8 @@
 # 1. Probability Space
 **Probability Space** is triple defined as
-\[
+$$
 (\Omega, \mathcal{A}, P)
-\]
+$$
 
 where  
 - \(\Omega\) is the **sample space** (all possible outcomes),  
