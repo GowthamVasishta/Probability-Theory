@@ -9,7 +9,7 @@ where
 
 ## Understanding $$\sigma$$-field $$\mathcal{A}$$
 $$\sigma$$ algebra is collection of subsets of **$$\Omega$$** that satifies below three properties.
-1. $$\mathcal(A)$$ contains sample space \
+1. $$\mathcal{A}$$ contains sample space \
    $$\Omega \in \mathcal{A}$$ \
    **Intuition:** The whole set of possible outcomes should be in **$$\mathcal{A}$$** as probability must always be define over entire sample _(and must be equal to 1)_. For example, possible outcomes of a coin toss are $${H, T}$$,  so both $$H$$ and $$T$$ must be included as events.
 3. 
