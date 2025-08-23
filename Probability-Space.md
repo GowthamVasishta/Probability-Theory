@@ -33,16 +33,23 @@ where
 
 In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
 
-### Example on construction of $$\sigma$$-field 𝒜
-Let's consider our sample space to be $\Omega = ${1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
-𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
-
-This is the largest possible σ-field on {1,2,3}. But a $\sigma$-field doesn't always need the entire power set; we can construct it with a few subsets of the power set and still satisfy the three rules (contains Ω, closed under complements, closed under countable unions).  
-
-   a. **A trivial $\sigma$-field** $A_1​=${ ∅,{1,2,3} } only "nothing" and "something" happen. Always valid but not quite useful. 
+   ### Example on construction of $$\sigma$$-field 𝒜
+   Let's consider our sample space to be $\Omega = ${1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
+   𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
    
-   b. **A non-trivial $\sigma$-field** Lets say we include {1}, then its complement is {2, 3}. Then a valid $\sigma$-field is as follows.  
-      A2​={ ∅, {1}, {2,3}, {1,2,3} }
+   This is the largest possible σ-field on {1,2,3}. But a $\sigma$-field doesn't always need the entire power set; we can construct it with a few subsets of the power set and still satisfy the three rules (contains Ω, closed under complements, closed under countable unions).  
+   
+      a. **A trivial $\sigma$-field** 
+         $A_1​=${ ∅,{1,2,3} } only "nothing" and "something" happen. Always valid but not quite useful. 
+      
+      b. **A non-trivial $\sigma$-field** 
+         Lets say we include {1}, then its complement is {2, 3}. Then a valid $\sigma$-field is as follows.  
+         A2​={ ∅, {1}, {2,3}, {1,2,3} }
+   
+   **Idea:** The biggest σ-field is the power set (all subsets). And, the smallest σ-field is {∅, Ω}.
 
-**Idea:** The biggest σ-field is the power set (all subsets). And, the smallest σ-field is {∅, Ω}.
-
+   ### Why don't we use all subsets always?
+   If we’re dealing with something small and finite (like tossing a coin or rolling a die), we can happily include all possible subsets of outcomes as events.
+   Example: For a coin toss, the subsets are {H}, {T}, {H,T}, and ∅. All of them can have probabilities without any problem.
+   
+   But when we move to infinite cases (like picking a random number between 0 and 1), things get tricky. Some subsets of [0, 1] are too "wild" to assign a probability to in a consistent way. These unusual sets are referred to as **non-measurable sets**.
