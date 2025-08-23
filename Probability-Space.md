@@ -34,7 +34,7 @@ where
 In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
 
 ### Example on construction of $$\sigma$$-field 𝒜
-Let's consider our sample space be $\Omega =$ {1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets. 
+Let's consider our sample space be $\Omega =$ {1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
 P(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
 
 This is the largest possible σ-field on {1,2,3}.
