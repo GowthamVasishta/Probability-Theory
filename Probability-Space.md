@@ -112,8 +112,8 @@ $$
 
 Let's develop a probability space for a coin toss experiment. 
 
-- **sample space** $\Omega = \lbrace H, T \rbrace$
-- **σ-field** The power set,
+- **sample spac:e** $\Omega = \lbrace H, T \rbrace$
+- **σ-field:** The power set,
   
 $$
 𝒜 = \lbrace \emptyset, \lbrace H \rbrace, \lbrace T \rbrace, \lbrace H,T \rbrace \rbrace
