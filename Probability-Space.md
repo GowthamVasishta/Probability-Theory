@@ -69,65 +69,48 @@ $$
 
 The σ-field can be very small or as large as the power set, but it must always obey the three rules.
 
-### Why don't we use all subsets always? Why do we need a $\sigma$-field?
-If we’re dealing with something small and finite (like tossing a coin or rolling a die), we can happily include all possible subsets of outcomes as events.
-Example: For a coin toss, the subsets are {H}, {T}, {H,T}, and ∅. All of them can have probabilities without any problem.
+### Why Not Always Use All Subsets?
+For **finite sample spaces** (such as coin tosses or dice rolls), we can safely take all subsets as events.
 
-But when we move to infinite cases (like picking a random number between 0 and 1), things get tricky. Some subsets of [0, 1] are too "wild" to assign a probability to in a consistent way. These unusual sets are referred to as **non-measurable sets**.
+However, for **infinite or continuous sample spaces** (e.g., choosing a real number between 0 and 1), some subsets are too irregular to assign probabilities consistently. Such sets are called **non-measurable sets** (e.g., the Vitali set, constructed using the Axiom of Choice).
 
-**$\sigma$-field as fix:**
-To avoid the problem of non-measurable sets, we don't allow all subsets in the infinite case. Instead, we restrict to a carefully chosen collection of subsets called a $\sigma$-field.
+**The Fix: The Borel $\sigma$-field**
+To avoid inconsistencies, we restrict ourselves to carefully chosen $\ sigma$-fields, such as the **Borel $\sigma$-field** on the real line.
 
-For real numbers, the most common choice is the **Borel $\sigma$-field**.
-
-1. It starts with all the open intervals (like (0.2, 0.5)).
-
-2. Then, using the rules of σ-fields (unions, intersections, complements), it builds up a huge family of sets. This family includes:
-   a. open sets,
-   b. closed sets,
-   c. intervals, rays,
-   d. finite and countable unions, and more.
-
-The Borel σ-field is big enough to cover every event we care about in practice, but small enough to exclude the problematic non-measurable sets.
-
-In conclusion, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite or continuous cases, we must be careful due to the existence of non-measurable sets.
+- It starts with all the open intervals (e.g., (0.2, 0.5)).
+- By applying $\sigma$-field rules (unions, intersections, complements), it generates a vast collection of sets, including open sets, closed sets, intervals, rays, and countable unions of such sets.
+   
+The Borel σ-field is large enough for all practical purposes in probability, yet avoids pathological non-measurable sets.
 
 ---
 
 ## Probability Measure 𝑃
-In a probability space (Ω, 𝒜, P), the probability measure 𝑃 is a function that assigns a number (probability) to each event in the σ-field 𝒜.
+A **probability measure** is a function assigning a probability to each event in **𝒜**.
 
-**Intuition:** Imagine you need to assign weights across all possible outcomes. The total weight you assign is 1 (100%). Each outcome gets a portion of that weight. Outcomes with a higher likelihood of occurrence are assigned with larger weight as compared to outcomes with a lower likelihood of occurrence. 
-
-Formally,
+**Definition**
 
 $$
 P: 𝒜 \to [0,1]
 $$
 
-### Properties of Probability Measure P
+such that:
+1. **Non-negativity:** For every event `A ∈ 𝒜`: $ P(A) \geq 0 $
+2. **Normalization:** The probability of the whole sample space is 1:$ P(\Omega) = 1 $
 
-#### 1. Non-negativity
-For every event `A ∈ 𝒜`:
-
-$$
-P(A) \geq 0
-$$
-
-#### 2. Normalization
-The probability of the whole sample space is 1:
-
-$$
-P(\Omega) = 1
-$$
-
-#### 3. Countable Additivity (σ-additivity)
-For any countable collection of disjoint events `A₁, A₂, … ∈ 𝒜`:
+3. **Countable Additivity** For any countable collection of disjoint events `A₁, A₂, … ∈ 𝒜`:
 
 $$
 P\left( \bigcup_{i=1}^{\infty} A_i \right) 
 = \sum_{i=1}^{\infty} P(A_i)
 $$
+
+
+**Intuition:** Imagine you need to assign weights across all possible outcomes. The total weight you assign is 1 (100%). Each outcome gets a portion of that weight. Outcomes with a higher likelihood of occurrence are assigned with larger weight as compared to outcomes with a lower likelihood of occurrence. 
+
+
+### Properties of Probability Measure P
+
+#### 
 
 In conclusion, a probability measure is a way of **spreading unit weight (1) across possible outcomes**, so that we can talk about how likely events are, in a way that’s logical, consistent, and scalable.
 
