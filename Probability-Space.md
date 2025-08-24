@@ -8,9 +8,18 @@ where
 - $$P$$ is the **probability measure**. 
 
 ---
+## $$\sigma$$-field of events
+**$\omega$** is the set of all possible outcomes. For example, the sample space of a die roll is 
 
-## Understanding $$\sigma$$-field 𝒜
+$$
+\lbrace 1, 2, 3, 4, 5, 6 \rbrace
+$$
+
+---
+
+## $$\sigma$$-field of events
 Subsets of **$$\Omega$$** are called Events, **$$\sigma$$ algebra** is a collection of such events that satisfy the following three properties.
+
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
 
@@ -33,7 +42,7 @@ Subsets of **$$\Omega$$** are called Events, **$$\sigma$$ algebra** is a collect
     
    **Intuition:** Probability should not only apply to the single events, but also to combined events.
 
-In short, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
+In conclusion, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
 
 ### Example on construction of $$\sigma$$-field 𝒜
 Let's consider our sample space to be $\Omega = ${1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
@@ -71,12 +80,14 @@ For real numbers, the most common choice is the **Borel $\sigma$-field**.
 
 The Borel σ-field is big enough to cover every event we care about in practice, but small enough to exclude the problematic non-measurable sets.
 
-In short, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite or continuous cases, we must be careful due to the existence of non-measurable sets.
+In conclusion, imagine a $\sigma$-field as a **safe menu of events** which lets us assign probabilities consistently without running into paradoxes. Although for small cases like coin toss or rolling a die, we can include all subsets in the $\sigma$-field, however, in the infinite or continuous cases, we must be careful due to the existence of non-measurable sets.
 
 ---
 
 ## Probability Measure 𝑃
 In a probability space (Ω, 𝒜, P), the probability measure 𝑃 is a function that assigns a number (probability) to each event in the σ-field 𝒜.
+
+**Intuition:** Imagine you need to assign weights across all possible outcomes. The total weight you assign is 1 (100%). Each outcome gets a portion of that weight. Outcomes with a higher likelihood of occurrence are assigned with larger weight as compared to outcomes with a lower likelihood of occurrence. 
 
 Formally,
 
@@ -108,6 +119,7 @@ P\left( \bigcup_{i=1}^{\infty} A_i \right)
 = \sum_{i=1}^{\infty} P(A_i)
 $$
 
+In conclusion, a probability measure is a way of **spreading unit weight (1) across possible outcomes**, so that we can talk about how likely events are, in a way that’s logical, consistent, and scalable.
 
 ---
 
