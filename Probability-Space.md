@@ -51,9 +51,9 @@ Thus, a $\sigma$-field ensures we can talk about events, their opposites, and co
 Consider $\Omega = ${1, 2, 3}. 
 - **Largest $\sigma$-field (the power set)**
   
-  $$
-  𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
-  $$
+$$
+𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
+$$
   
 This is the largest possible σ-field on {1,2,3}. But a $\sigma$-field doesn't always need the entire power set; we can construct it with a few subsets of the power set and still satisfy the three rules (contains Ω, closed under complements, closed under countable unions).  
 
