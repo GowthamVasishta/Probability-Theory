@@ -50,7 +50,7 @@ Thus, a $\sigma$-field ensures we can talk about events, their opposites, and co
 ### Constructing $$\sigma$$-fields
 Consider $\Omega = ${1, 2, 3}. 
 - **Largest $\sigma$-field (the power set)**
-- 
+  
   $$
   𝒫(Ω)={ ∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3} }
   $$
