@@ -12,7 +12,7 @@ where
 
 ---
 ## Sample Space ($\Omega$)
-The sample space is the set of all possible outcomes of an experiment. 
+The sample space is the set of all possible outcomes of an experiment. Subsets of the sample space (**$$\Omega$$**) are called Events.
 
 **Example**
 For a die roll,
@@ -26,32 +26,23 @@ Think of Ω as the "universe" of everything that could possibly happen in your e
 
 ---
 
-## $$\sigma$$-field of events
-Subsets of **$$\Omega$$** are called Events, **$\sigma$-algebra 𝒜** or **$\sigma$-field 𝒜** is a collection of such events that satisfy the following three properties.
+## $$\sigma$$-field (𝒜) of Events
+A **$\sigma$-field 𝒜** is a collection of subsets of **$\Omega$** that is closed under certain properties.
 
-1. **It contains sample space** \
-   $$\Omega \in 𝒜$$ 
+#### Formal Properties
+1. **Contains sample space** $$\Omega \in 𝒜$$
+3. **Closed under complements:** If $$\(A \in 𝒜\)$$, then its complement $$\(A^c \in 𝒜\)$$.
+   
 
-   Possible outcomes of a coin toss are {H, T},  so both $$H$$ and $$T$$ must be included as events.
-   
-   **Intuition:** The whole set of possible outcomes should be in 𝒜 as probability must always be defined over the entire sample _(and must be equal to 1)_.
-   
-3. **It’s closed under complements:**  
-   If $$\(A \in 𝒜\)$$, then its complement $$\(A^c \in 𝒜\)$$.
-   
-   If there is an event in the $$\sigma$$-field, then its opposite should also be in the $$\sigma$$-field. For example, if “rain” is an event, then “no rain” must also be an event.
-      
-   **Intuition:** Probability deals with something happening and not happening. If we only allowed one side, we couldn't assign consistent probabilities.
+4. **Closed under countable unions (and intersections):** If $$\(A_1, A_2, A_3, \dots \in 𝒜\)$$, then  
+   $$\(\bigcup_{i=1}^\infty A_i \in 𝒜\)$$.  
 
-5. **It’s closed under countable unions (and intersections):**  
-   If $$\(A_1, A_2, A_3, \dots \in 𝒜\)$$, then  
-   $$\(\bigcup_{i=1}^\infty A_i \in 𝒜\)$$.
-   
-   If “rain on Monday,” “rain on Tuesday,” “rain on Wednesday,” … are events, then “rain on some day” must also be an event.
-    
-   **Intuition:** Probability should not only apply to the single events, but also to combined events.
+#### Intuition and Examples
+1. Rule (1): We must always include the "everything happens" event.
+2. Rule (2): If "rain" is an event, then "no rain" must also be an event.
+3. Rule (3): If "rain on Monday", "rain on Tuesday" ... are events, then "rain on some day" must also be an event.
 
-In conclusion, $$\sigma$$-field always includes "everything happens", the  "opposite" of any event and combination of events to assign probabilities consistently without missing cases.
+Thus, a $$\ sigma$-field ensures we can talk about events, their opposites, and combinations consistently. 
 
 ### Example on construction of $$\sigma$$-field 𝒜
 Let's consider our sample space to be $\Omega = ${1, 2, 3}. The power set of $$\Omega$$ is all subsets of {1 ,2 ,3} i.e. $$2^3 = 8$$ subsets.  
