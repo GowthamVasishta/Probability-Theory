@@ -37,7 +37,7 @@ A **$\sigma$-field 𝒜** is a collection of subsets of **$\Omega$** that is clo
 4. **Closed under countable unions (and intersections):** If $$\(A_1, A_2, A_3, \dots \in 𝒜\)$$, then
 
    $$
-   \(\bigcup_{i=1}^\infty A_i \in 𝒜\)
+   (\bigcup_{i=1}^\infty A_i \in 𝒜)
    $$.  
 
 #### Intuition and Examples
