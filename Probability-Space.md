@@ -12,11 +12,17 @@ where
 
 ---
 ## Sample Space ($\Omega$)
-**$\Omega$** is the set of all possible outcomes. For example, the sample space of a die roll is 
+The sample space is the set of all possible outcomes of an experiment. 
+
+**Example**
+For a die roll,
 
 $$
-\lbrace 1, 2, 3, 4, 5, 6 \rbrace
+\Omega = \lbrace 1, 2, 3, 4, 5, 6 \rbrace
 $$
+
+**Intuition**  
+Think of Ω as the "universe" of everything that could possibly happen in your experiment.
 
 ---
 
