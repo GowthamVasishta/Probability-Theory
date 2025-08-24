@@ -94,8 +94,8 @@ P: 𝒜 \to [0,1]
 $$
 
 such that:
-1. **Non-negativity:** For every event `A ∈ 𝒜`: $ P(A) \geq 0 $
-2. **Normalization:** The probability of the whole sample space is 1:$ P(\Omega) = 1 $
+1. **Non-negativity:** For every event `A ∈ 𝒜`: $P(A) \geq 0$
+2. **Normalization:** The probability of the whole sample space is 1:$P(\Omega) = 1$
 
 3. **Countable Additivity** For any countable collection of disjoint events `A₁, A₂, … ∈ 𝒜`:
 
