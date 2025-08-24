@@ -8,7 +8,7 @@ where
 - $$P$$ is the **probability measure**. 
 
 ---
-## $$\sigma$$-field of events
+## Sample Space ($\Omega$)
 **$\omega$** is the set of all possible outcomes. For example, the sample space of a die roll is 
 
 $$
