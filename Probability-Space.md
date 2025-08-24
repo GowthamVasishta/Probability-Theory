@@ -104,41 +104,36 @@ P\left( \bigcup_{i=1}^{\infty} A_i \right)
 $$
 
 
-**Intuition:** Imagine you need to assign weights across all possible outcomes. The total weight you assign is 1 (100%). Each outcome gets a portion of that weight. Outcomes with a higher likelihood of occurrence are assigned with larger weight as compared to outcomes with a lower likelihood of occurrence. 
-
-
-### Properties of Probability Measure P
-
-#### 
-
-In conclusion, a probability measure is a way of **spreading unit weight (1) across possible outcomes**, so that we can talk about how likely events are, in a way that’s logical, consistent, and scalable.
+**Intuition:** Think of **P** as distributing a total weight of 1 (100%) across all possible outcomes. More likely outcomes get more weight.
 
 ---
 
-### Example
+### Example: Coin Toss
 
-Let's develop a probability space for a coin toss experiment. The sample space is
+Let's develop a probability space for a coin toss experiment. 
 
-$$
-\Omega = \lbrace H, T \rbrace
-$$
-
-One possible σ-field is the power set:  
-
+- **sample space** $\Omega = \lbrace H, T \rbrace$
+- **σ-field** The power set,
+  
 $$
 𝒜 = \lbrace \emptyset, \lbrace H \rbrace, \lbrace T \rbrace, \lbrace H,T \rbrace \rbrace
 $$
 
-A valid probability measure could be:  
+- Probability measure:  
 
 $$
 P( \lbrace H \rbrace) = 0.5, \quad P( \lbrace T \rbrace) = 0.5
 $$
 
-Here, every subset of $\Omega$ is an event, and \(P\) assigns probabilities to them.
+Here, every possible subset of $\Omega$ is an event, and \(P\) assigns consistent probabilities to each.
 
 ---
 
 ## Summary
 
-A probability space (Ω,𝒜,P) is a framework that defines all possible outcomes, the events of interest, and a consistent rule assigning probabilities to them.
+A probability space **$(\Omega, 𝒜, P)$** provides a rigorous framework to study randomness
+- **$\Omega$** defines all possible outcomes,  
+- **$𝒜$** specifies which subsets are valid events,  
+- **$P$** assigns consistent probabilities to those events.
+
+This structure ensures probability theory is mathematically sound, scalable to infinite cases, and forms the foundation for modern statistics, stochastic processes and application in fields such a finance, physics and machine learning.
