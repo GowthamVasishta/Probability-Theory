@@ -75,7 +75,7 @@ For **finite sample spaces** (such as coin tosses or dice rolls), we can safely 
 However, for **infinite or continuous sample spaces** (e.g., choosing a real number between 0 and 1), some subsets are too irregular to assign probabilities consistently. Such sets are called **non-measurable sets** (e.g., the Vitali set, constructed using the Axiom of Choice).
 
 **The Fix: The Borel $\sigma$-field**
-To avoid inconsistencies, we restrict ourselves to carefully chosen $\ sigma$-fields, such as the **Borel $\sigma$-field** on the real line.
+To avoid inconsistencies, we restrict ourselves to carefully chosen $\sigma$-fields, such as the **Borel $\sigma$-field** on the real line.
 
 - It starts with all the open intervals (e.g., (0.2, 0.5)).
 - By applying $\sigma$-field rules (unions, intersections, complements), it generates a vast collection of sets, including open sets, closed sets, intervals, rays, and countable unions of such sets.
