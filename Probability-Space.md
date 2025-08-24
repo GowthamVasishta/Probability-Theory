@@ -9,7 +9,7 @@ where
 
 ---
 ## Sample Space ($\Omega$)
-**$\omega$** is the set of all possible outcomes. For example, the sample space of a die roll is 
+**$\Omega$** is the set of all possible outcomes. For example, the sample space of a die roll is 
 
 $$
 \lbrace 1, 2, 3, 4, 5, 6 \rbrace
@@ -145,3 +145,8 @@ $$
 
 Here, every subset of $\Omega$ is an event, and \(P\) assigns probabilities to them.
 
+---
+
+## Summary
+
+A probability space (Ω,𝒜,P) is a framework that defines all possible outcomes, the events of interest, and a consistent rule assigning probabilities to them.
