@@ -49,19 +49,19 @@ Thus, a $\sigma$-field ensures we can talk about events, their opposites, and co
 
 ### Constructing $$\sigma$$-fields
 Consider $\Omega = ${1, 2, 3}. 
-- **Largest $\sigma$-field (the power set - all subsets)**
+- **Largest $\sigma$-field (the power set - all subsets):**
   
 $$
 𝒫(Ω)=\lbrace ∅, \lbrace1\rbrace, \lbrace2\rbrace, \lbrace3\rbrace, \lbrace1,2\rbrace, \lbrace1,3\rbrace, \lbrace2,3\rbrace, \lbrace1,2,3\rbrace \rbrace
 $$
 
-- **Smallest $\sigma$-field (trivial)**
+- **Smallest $\sigma$-field (trivial):**
 
 $$
 A_1 ​= \lbrace ∅,\lbrace1,2,3\rbrace \rbrace
 $$
 
--  **Intermediate example** If $\lbrace 1 \rbrace \in 𝒜$, then its complement  $\lbrace 2, 3 \rbrace$ must also be in **𝒜**. A valid $\sigma$-field is
+-  **Intermediate example:** If $\lbrace 1 \rbrace \in 𝒜$, then its complement  $\lbrace 2, 3 \rbrace$ must also be in **𝒜**. A valid $\sigma$-field is
 
 $$
 A_2​ = \lbrace ∅, \lbrace 1 \rbrace, \lbrace 2,3 \rbrace, \lbrace 1,2,3 \rbrace \rbrace
