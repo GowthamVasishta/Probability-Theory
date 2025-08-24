@@ -119,7 +119,7 @@ $$
 𝒜 = \lbrace \emptyset, \lbrace H \rbrace, \lbrace T \rbrace, \lbrace H,T \rbrace \rbrace
 $$
 
-- Probability measure:  
+- **Probability measure:**  
 
 $$
 P( \lbrace H \rbrace) = 0.5, \quad P( \lbrace T \rbrace) = 0.5
