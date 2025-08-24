@@ -64,7 +64,7 @@ $$
 -  **Intermediate example** If $\lbrace 1 \rbrace \in 𝒜$, then its complement  $\lbrace 2, 3 \rbrace$ must also be in **𝒜**. A valid $\sigma$-field is
 
 $$
-A_2​=\lbrace ∅, \lbrace 1 \rbrace, \lbrace 2,3 \brace, \lbrace 1,2,3 \rbrace \brace
+A_2​=\lbrace ∅, \lbrace 1 \rbrace, \lbrace 2,3 \brace, \lbrace 1,2,3 \rbrace \rbrace
 $$
 
 The σ-field can be very small or as large as the power set, but it must always obey the three rules.
