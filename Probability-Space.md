@@ -1,11 +1,14 @@
 # 1. Probability Space
-**Probability Spaces** are used to model random processes or experiments. It is defined as a triple:
-$(\Omega, 𝒜, P)$
+A **Probability Space** is a mathematical framework used to model random experiments or processes. It is defined as a triple
+
+$$
+(\Omega, 𝒜, P)
+$$
 
 where  
-- $$\Omega$$ is the **sample space** (all possible outcomes),  
-- $$𝒜$$ is a **$$\sigma$$-field (sigma-algebra)**,  
-- $$P$$ is the **probability measure**. 
+- **$\Omega$** is the **sample space** (the set of all possible outcomes),  
+- **$𝒜$** is a **$$\sigma$$-field (sigma-algebra)**, a structured collection of subset of **$\Omega$**,  
+- **$P$** is the **probability measure**, which assigns probabilites to the events in **𝒜**. 
 
 ---
 ## Sample Space ($\Omega$)
