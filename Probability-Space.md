@@ -45,7 +45,7 @@ $$
 - Rule (2): If "rain" is an event, then "no rain" must also be an event.
 - Rule (3): If "rain on Monday", "rain on Tuesday" ... are events, then "rain on some day" must also be an event.
 
-Thus, a $$\sigma$-field ensures we can talk about events, their opposites, and combinations consistently. 
+Thus, a $\sigma$-field ensures we can talk about events, their opposites, and combinations consistently. 
 
 ### Constructing $$\sigma$$-fields
 Consider $\Omega = ${1, 2, 3}. 
