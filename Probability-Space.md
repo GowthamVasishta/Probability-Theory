@@ -54,17 +54,20 @@ Consider $\Omega = ${1, 2, 3}.
 $$
 𝒫(Ω)=\lbrace ∅, \lbrace1\rbrace, \lbrace2\rbrace, \lbrace3\rbrace, \lbrace1,2\rbrace, \lbrace1,3\rbrace, \lbrace2,3\rbrace, \lbrace1,2,3\rbrace \rbrace
 $$
-  
-This is the largest possible σ-field on {1,2,3}. But a $\sigma$-field doesn't always need the entire power set; we can construct it with a few subsets of the power set and still satisfy the three rules (contains Ω, closed under complements, closed under countable unions).  
 
-a. **A trivial $\sigma$-field** 
-   $A_1​=${ ∅,{1,2,3} } only "nothing" and "something" happen. Always valid but not quite useful. 
+- **Smallest $\sigma$-field (trivial)**
 
-b. **A non-trivial $\sigma$-field** 
-   Lets say we include {1}, then its complement is {2, 3}. Then a valid $\sigma$-field is as follows.  
-   A2​={ ∅, {1}, {2,3}, {1,2,3} }
+$$
+A_1 ​= \lbrace ∅,\lbrace1,2,3\rbrace \rbrace
+$$
 
-**Idea:** The biggest σ-field is the power set (all subsets). And, the smallest σ-field is {∅, Ω}.
+-  **Intermediate example** If $\lbrace 1 \rbrace \in 𝒜$, then its complement  $\lbrace 2, 3 \rbrace$ must also be in **𝒜**. A valid $\sigma$-field is
+
+$$
+A_2​=\lbrace ∅, \lbrace 1 \rbrace, \lbrace 2,3 \brace, \lbrace 1,2,3 \rbrace \brace
+$$
+
+The σ-field can be very small or as large as the power set, but it must always obey the three rules.
 
 ### Why don't we use all subsets always? Why do we need a $\sigma$-field?
 If we’re dealing with something small and finite (like tossing a coin or rolling a die), we can happily include all possible subsets of outcomes as events.
