@@ -18,7 +18,7 @@ $$
 ---
 
 ## $$\sigma$$-field of events
-Subsets of **$$\Omega$$** are called Events, **$$\sigma$$-algebra 𝒜 or \sigma$$-field 𝒜** is a collection of such events that satisfy the following three properties.
+Subsets of **$$\Omega$$** are called Events, **$$\sigma$$-algebra 𝒜$$** or **$$\sigma$$-field 𝒜$$** is a collection of such events that satisfy the following three properties.
 
 1. **It contains sample space** \
    $$\Omega \in 𝒜$$ 
