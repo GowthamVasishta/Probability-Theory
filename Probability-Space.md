@@ -29,7 +29,7 @@ Think of Ω as the "universe" of everything that could possibly happen in your e
 ## $$\sigma$$-field (𝒜) of Events
 A **$\sigma$-field 𝒜** is a collection of subsets of **$\Omega$** that is closed under certain properties.
 
-#### Formal Properties
+#### Properties
 1. **Contains sample space** $$\Omega \in 𝒜$$
 3. **Closed under complements:** If $$\(A \in 𝒜\)$$, then its complement $$\(A^c \in 𝒜\)$$.
    
