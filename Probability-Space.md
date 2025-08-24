@@ -34,7 +34,7 @@ A **$\sigma$-field 𝒜** is a collection of subsets of **$\Omega$** that is clo
 3. **Closed under complements:** If $$\(A \in 𝒜\)$$, then its complement $$\(A^c \in 𝒜\)$$.
    
 
-4. **Closed under countable unions (and intersections):** If $$\(A_1, A_2, A_3, \dots \in 𝒜\)$$, then  
+4. **Closed under countable unions (and intersections):** If $$\(A_1, A_2, A_3, \dots \in 𝒜\)$$, then
 
    $$
    \(\bigcup_{i=1}^\infty A_i \in 𝒜\)
