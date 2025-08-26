@@ -28,15 +28,30 @@ $$
 
 ### 2.1 Weak Law of Large Numbers (WLLN)  
 
-$$
-\bar{X}\_n \xrightarrow{P} \mu \quad \text{as } n \to \infty.
-$$  
+For a sequence of i.i.d. random variables (like coin tosses with expectation $$0.5$$), the sample average will, with high probability, remain within a small tolerance band around the true mean when the number of trials becomes large.
 
-Meaning: For any tolerance level $$\epsilon > 0$$,  
+**Formally:**
 
 $$
-\Pr\big(\lvert \bar{X}\_n - \mu \rvert > \epsilon \big) \to 0 \quad \text{as } n \to \infty.
-$$  
+P\lbrace \, \lvert \bar{X}_n - \mu \rvert \geq \varepsilon \, \rbrace \to 0 \quad \text{as } n \to \infty
+$$
+
+where:  
+
+- $$\bar{X}_n$$ = sample mean after $$n$$ trials  
+- $$\mu$$ = true mean (e.g., $$0.5$$ for fair coin toss)  
+- $$\varepsilon > 0$$ = tolerance level  
+
+---
+
+**In simple words:**  
+As $$n$$ grows, the probability that the sample mean drifts outside the tolerance band $$[\mu - \varepsilon, \mu + \varepsilon]$$ becomes very small.  
+
+👉 **Example:** For coin tosses, if $$\varepsilon = 0.05$$:  
+
+- The sample mean stays within **0.45 to 0.55** most of the time after enough tosses.  
+
+![Weak Law of Large Numbers Illustration](Images/Weak-Law-Large-Numbers-Illustration.png)
 
 - **Intuition:** The sample mean is *probably close* to the true mean when $$n$$ is large. But occasional deviations are possible, even infinitely often.  
 - **Analogy:** Think of checking your GPA after each exam. With more exams, your GPA will likely hover near your true performance, but it can still fluctuate.  
