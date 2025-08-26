@@ -138,7 +138,7 @@ plt.grid(True)
 plt.show()
 ```
 
-![Law of large Numbers](images/Coin-Toss-Simulation.png)
+![Law of large Numbers](Images/Coin-Toss-Simulation.png)
 
 ### Observation
 
