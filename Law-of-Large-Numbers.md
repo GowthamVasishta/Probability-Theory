@@ -46,7 +46,7 @@ $$
 ### 2.2 Strong Law of Large Numbers (SLLN)  
 
 $$
-\Pr\!\Big(\lim\_{n \to \infty} \bar{X}\_n = \mu \Big) = 1.
+\Pr \Big(\lim\_{n \to \infty} \bar{X}\_n = \mu \Big) = 1.
 $$  
 
 - **Meaning:** With probability one, the sequence of sample averages converges to the true mean.  
