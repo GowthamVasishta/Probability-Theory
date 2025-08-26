@@ -47,7 +47,7 @@ where:
 **In simple words:**  
 As $$n$$ grows, the probability that the sample mean drifts outside the tolerance band $$[\mu - \varepsilon, \mu + \varepsilon]$$ becomes very small.  
 
-👉 **Example:** For coin tosses, if $$\varepsilon = 0.05$$:  
+**Example:** For coin tosses, if $$\varepsilon = 0.05$$:  
 
 - The sample mean stays within **0.45 to 0.55** most of the time after enough tosses.  
 
