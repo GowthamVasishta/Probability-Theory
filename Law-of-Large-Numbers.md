@@ -138,6 +138,8 @@ plt.grid(True)
 plt.show()
 ```
 
+![Law of large Numbers](Images/Coin-Toss-Simulation.png)
+
 ### Observation
 
 - At first, the sample mean oscillates strongly.  
